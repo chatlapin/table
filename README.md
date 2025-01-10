@@ -7,17 +7,17 @@ The table can be sorted, filtered (using a search input), paginated and the numb
 ## Installation
 
 ```
-npm install @chatlapin-table
+npm install chatlapin-table
 
 or
 
-yarn add @chatlapin-table
+yarn add chatlapin-table
 ```
 
 ## Usage
 
 ```
-import { Table } from "@chatlapin-table";
+import { Table } from "chatlapin-table";
 
 const App = () => {
     const data = [
