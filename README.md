@@ -7,17 +7,17 @@ The table can be sorted, filtered (using a search input), paginated and the numb
 ## Installation
 
 ```
-npm install @chatlapin-table
+npm install chatlapin-table
 
 or
 
-yarn add @chatlapin-table
+yarn add chatlapin-table
 ```
 
 ## Usage
 
 ```
-import { Table } from "@chatlapin-table";
+import { Table } from "chatlapin-table";
 
 const App = () => {
     const data = [
@@ -54,9 +54,9 @@ const App = () => {
 
 Used to render the head columns labels:
 
--   label: the name of the column you want to display in the table header
--   accessor: the reference in the data array
--   sortable: boolean, if the column is sortable or not
+- label: the name of the column you want to display in the table header
+- accessor: the reference in the data array
+- sortable: boolean, if the column is sortable or not
 
 ### Data array
 
