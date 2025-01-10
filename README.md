@@ -1,4 +1,4 @@
-chatlapin-table
+chatlapin-simpletable
 
 This package is a react component to render a table using custom data.
 
@@ -7,17 +7,17 @@ The table can be sorted, filtered (using a search input), paginated and the numb
 ## Installation
 
 ```
-npm install chatlapin-table
+npm install chatlapin-simpletable
 
 or
 
-yarn add chatlapin-table
+yarn add chatlapin-simpletable
 ```
 
 ## Usage
 
 ```
-import { Table } from "chatlapin-table";
+import { Table } from "chatlapin-simpletable";
 
 const App = () => {
     const data = [
